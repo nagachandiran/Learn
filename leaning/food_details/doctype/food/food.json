@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-25 15:10:45.137932",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_bfrj",
+  "amended_from",
+  "total_number_of_person",
+  "plate_price",
+  "profit",
+  "discount",
+  "discount_price",
+  "column_break_vq4z",
+  "date",
+  "day"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_bfrj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Food",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "total_number_of_person",
+   "fieldtype": "Int",
+   "label": "Total Number of Person"
+  },
+  {
+   "fieldname": "plate_price",
+   "fieldtype": "Float",
+   "label": "Plate Price"
+  },
+  {
+   "fieldname": "profit",
+   "fieldtype": "Int",
+   "label": "Profit"
+  },
+  {
+   "fieldname": "discount",
+   "fieldtype": "Int",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "discount_price",
+   "fieldtype": "Int",
+   "label": "Discount Price"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Data",
+   "label": "Day"
+  },
+  {
+   "fieldname": "column_break_vq4z",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-04-29 10:50:16.564251",
+ "modified_by": "Administrator",
+ "module": "food details",
+ "name": "Food",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

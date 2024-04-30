@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-25 15:23:30.089395",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vwtt",
+  "amended_from",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thusday",
+  "friday",
+  "saturday",
+  "sunday"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vwtt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Food setting",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "default": "55",
+   "fieldname": "monday",
+   "fieldtype": "Currency",
+   "label": "Monday"
+  },
+  {
+   "default": "55",
+   "fieldname": "tuesday",
+   "fieldtype": "Currency",
+   "label": "Tuesday"
+  },
+  {
+   "default": "55",
+   "fieldname": "wednesday",
+   "fieldtype": "Currency",
+   "label": "Wednesday"
+  },
+  {
+   "default": "55",
+   "fieldname": "thusday",
+   "fieldtype": "Currency",
+   "label": "Thusday"
+  },
+  {
+   "default": "65",
+   "fieldname": "friday",
+   "fieldtype": "Currency",
+   "label": "Friday"
+  },
+  {
+   "default": "75",
+   "fieldname": "saturday",
+   "fieldtype": "Currency",
+   "label": "Saturday"
+  },
+  {
+   "default": "85",
+   "fieldname": "sunday",
+   "fieldtype": "Currency",
+   "label": "Sunday"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 15:10:56.155751",
+ "modified_by": "Administrator",
+ "module": "food details",
+ "name": "Food setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
